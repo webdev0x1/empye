@@ -30,7 +30,7 @@ jobs:
       env:
         COMPOSER_AUTH: ${{secrets.COMPOSER_AUTH}}
       with:
-        php: '8.3.6'
+        php: '8.3'
         process: 'unit-test'
         elasticsearch: 1
     - name: 'this step will build an magento artifact'
@@ -38,7 +38,7 @@ jobs:
       env:
         COMPOSER_AUTH: ${{secrets.COMPOSER_AUTH}}
       with:
-        php: '8.3.6'
+        php: '8.3'
         process: 'build'
         elasticsearch: 1
     
@@ -56,7 +56,7 @@ jobs:
         SSH_CONFIG: ${{secrets.STAGE_SSH_CONFIG}}
         WRITE_USE_SUDO: false
       with:
-        php: '8.3.6'
+        php: '8.3'
         deployer: 'no-permission-check'
         process: 'deploy-staging'
 
@@ -74,5 +74,5 @@ jobs:
         SSH_CONFIG: ${{secrets.STAGE_SSH_CONFIG}}
         WRITE_USE_SUDO: false
       with:
-        php: '8.3.6'
+        php: '8.3'
         process: 'cleanup-staging' 
