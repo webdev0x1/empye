@@ -1,0 +1,3 @@
+[submodule "magento/app/design/frontend/Empye/bootstrap"]
+	path = magento/app/design/frontend/Empye/bootstrap
+	url = https://github.com/webdev0x1/empye.git

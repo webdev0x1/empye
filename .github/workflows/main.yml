@@ -1,6 +1,6 @@
 name: m2-actions-test
 on: [push]
-
+ 
 jobs:
   magento2-build:
     runs-on: ubuntu-latest
