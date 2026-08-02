@@ -5,6 +5,8 @@ on: [push]
 jobs:
   magento2-build:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write  # Grants write access to the repository contents
     name: 'm2 tests & build'      
     steps:
     - uses: actions/checkout@v3
@@ -15,5 +17,5 @@ jobs:
         COMPOSER_AUTH: ${{secrets.COMPOSER_AUTH}}
       with:
         process: 'install-magento'
-        magento_version: 2.4.7
+        magento_version: 2.4.7-p1
         #no_push: 1 //uncomment this to prevent src code from being pushed to repo
