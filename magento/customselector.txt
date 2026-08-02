@@ -1,0 +1,3 @@
+customselector._domainkey	IN	TXT	( "v=DKIM1; h=rsa-sha256; k=rsa; s=email; "
+	  "p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAyfy+EQP5/wXSVYX4VR8tLXwp3qOqigS2EHVH2b8XNPQTsTSU76NlsVVvjSlJly7sTflQpvJYB3hUSr4C9DM9JgX1cFWKS5YCpCfnnTmQiL/JyfczKlYkRMkfKK7yeoa8pD0unEUqI5nJGOd12wuKdwj9eAXHkQAJeyiH8rovDsew7SsyOZmnhbStogAWcl9ifYegYPh3e+6yGw"
+	  "yifmBQT0bszOoJV8QaQmLDuSTS/NuUAfmMK4yvrknQ+6OT802W+XBMZUUSxyYkDBJMCvs5LysD8TY5BJPCLDXmMw3kjGgYh8uVxd9dMGdr4ILKGJABLfbZr/mtAFx1Q7fMwSxBOQIDAQAB" )  ; ----- DKIM key customselector for empye.org

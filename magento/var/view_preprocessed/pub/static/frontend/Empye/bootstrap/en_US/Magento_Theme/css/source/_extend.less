@@ -1,0 +1,35 @@
+.header {
+        &.panel {
+            > .header.links {
+		> li:empty {
+		margin: 0px;
+		}
+	}
+    }
+}
+
+& when (@media-common = true) {
+.fieldset>.field.choice:before, .fieldset>.field.no-label:before {
+        content: unset;
+}
+.cms-index-index .nav-sections {
+        margin-bottom: 0px;
+}
+}
+.media-width(@extremum, @break) when (@extremum = 'min') and (@break = @screen__m) {
+.fieldset>.field.choice:before, .fieldset>.field.no-label:before {
+	content: unset;
+}
+}
+
+.media-width(@extremum, @break) when (@extremum = 'min') and (@break = @screen__l) {
+.fieldset>.field.choice:before, .fieldset>.field.no-label:before {
+        content: unset;
+}
+}
+.media-width(@extremum, @break) when (@extremum = 'min') and (@break = @screen__xl) {
+.fieldset>.field.choice:before, .fieldset>.field.no-label:before {
+        content: unset;
+}
+}
+

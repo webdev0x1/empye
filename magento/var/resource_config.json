@@ -1,0 +1,9 @@
+<<<<<<< HEAD
+<<<<<<< HEAD
+{"media_directory":"\/var\/www\/html\/empyeorg\/pub\/media\/","allowed_resources":["css","css_secure","js","theme","favicon","logo","email","customer_address","wysiwyg","catalog\/category",".thumbs","tmp","catalog","custom_options","sales\/store\/logo","sales\/store\/logo_html","analytics","dhl","captcha",".renditions","sitemap",".template-manager","attribute"],"update_time":"3600"}
+=======
+{"media_directory":"\/home\/empye.org\/public_html\/magento\/pub\/media\/","allowed_resources":["css","css_secure","js","theme","favicon","logo","email","customer_address","wysiwyg","catalog\/category",".thumbs","tmp","catalog","custom_options","sales\/store\/logo","sales\/store\/logo_html","analytics","dhl","captcha",".renditions","sitemap",".template-manager","attribute"],"update_time":"3600"}
+>>>>>>> 910156f6f (Gitlab CI)
+=======
+{"media_directory":"\/var\/www\/html\/empyeorg\/pub\/media\/","allowed_resources":["css","css_secure","js","theme","favicon","logo","email","customer_address","wysiwyg","catalog\/category",".thumbs","tmp","catalog","custom_options","sales\/store\/logo","sales\/store\/logo_html","analytics","dhl","captcha",".renditions","sitemap",".template-manager","attribute"],"update_time":"3600"}
+>>>>>>> a0099bdc666f425a6764a2b8049017674a563e18

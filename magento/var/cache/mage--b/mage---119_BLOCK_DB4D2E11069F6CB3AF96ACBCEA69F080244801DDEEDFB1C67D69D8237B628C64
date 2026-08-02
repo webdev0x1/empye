@@ -1,0 +1,14 @@
+<<<<<<< HEAD
+<<<<<<< HEAD
+a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1784475340;s:6:"expire";i:1784478940;s:4:"tags";s:57:"119_BLOCK_HTML,119_CAT_C,119_CAT_C_3,119_CAT_C_4,119_MAGE";}
+=======
+a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1785459269;s:6:"expire";i:1785462869;s:4:"tags";s:57:"119_BLOCK_HTML,119_CAT_C,119_CAT_C_3,119_CAT_C_4,119_MAGE";}
+>>>>>>> 910156f6f (Gitlab CI)
+=======
+a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1784475340;s:6:"expire";i:1784478940;s:4:"tags";s:57:"119_BLOCK_HTML,119_CAT_C,119_CAT_C_3,119_CAT_C_4,119_MAGE";}
+>>>>>>> a0099bdc666f425a6764a2b8049017674a563e18
+
+<nav class="navigation" data-action="navigation">
+    <ul data-mage-init='{"menu":{"responsive":true, "expanded":true, "position":{"my":"left top","at":"left bottom"}}}'>
+        <li  class="level0 nav-1 category-item first level-top"><a href="https://www.empye.org/services.html"  class="level-top" ><span>Services</span></a></li><li  class="level0 nav-2 category-item last level-top"><a href="https://www.empye.org/products.html"  class="level-top" ><span>Products</span></a></li>            </ul>
+</nav>

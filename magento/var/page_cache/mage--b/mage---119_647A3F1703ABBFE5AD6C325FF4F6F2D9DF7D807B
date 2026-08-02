@@ -1,0 +1,12 @@
+<<<<<<< HEAD
+<<<<<<< HEAD
+a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1784468841;s:6:"expire";i:1784555241;s:4:"tags";s:37:"119_ROBOTS_1,119_FPC,119_FPC,119_MAGE";}
+{"content":"\n","status_code":200,"headers":{"Content-Type":"text\/plain","fastly-page-cacheable":"YES","Pragma":"no-cache","Cache-Control":"max-age=0, must-revalidate, no-cache, no-store","Expires":"Sat, 19 Jul 2025 13:47:21 GMT"},"context":{"data":{"store":"default","current_currency":"USD","customer_group":"0","customer_logged_in":false},"default":{"website":"0","customer_group":0,"store":"default","current_currency":"USD","customer_logged_in":false}}}
+=======
+a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1785453336;s:6:"expire";i:1785539736;s:4:"tags";s:37:"119_ROBOTS_1,119_FPC,119_FPC,119_MAGE";}
+{"content":"\n","status_code":200,"headers":{"Content-Type":"text\/plain","fastly-page-cacheable":"YES","Pragma":"no-cache","Cache-Control":"max-age=0, must-revalidate, no-cache, no-store","Expires":"Wed, 30 Jul 2025 23:15:36 GMT"},"context":{"data":{"store":"default","current_currency":"USD","customer_group":"0","customer_logged_in":false},"default":{"website":"0","customer_group":0,"store":"default","current_currency":"USD","customer_logged_in":false}}}
+>>>>>>> 910156f6f (Gitlab CI)
+=======
+a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1784468841;s:6:"expire";i:1784555241;s:4:"tags";s:37:"119_ROBOTS_1,119_FPC,119_FPC,119_MAGE";}
+{"content":"\n","status_code":200,"headers":{"Content-Type":"text\/plain","fastly-page-cacheable":"YES","Pragma":"no-cache","Cache-Control":"max-age=0, must-revalidate, no-cache, no-store","Expires":"Sat, 19 Jul 2025 13:47:21 GMT"},"context":{"data":{"store":"default","current_currency":"USD","customer_group":"0","customer_logged_in":false},"default":{"website":"0","customer_group":0,"store":"default","current_currency":"USD","customer_logged_in":false}}}
+>>>>>>> a0099bdc666f425a6764a2b8049017674a563e18

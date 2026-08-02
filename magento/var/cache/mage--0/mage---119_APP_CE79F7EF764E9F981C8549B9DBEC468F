@@ -1,0 +1,10 @@
+<<<<<<< HEAD
+<<<<<<< HEAD
+a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1784475340;s:6:"expire";i:1784482540;s:4:"tags";s:49:"119_STORE,119_CONFIG,119_COLLECTION_DATA,119_MAGE";}
+=======
+a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1785459269;s:6:"expire";i:1785466469;s:4:"tags";s:49:"119_STORE,119_CONFIG,119_COLLECTION_DATA,119_MAGE";}
+>>>>>>> 910156f6f (Gitlab CI)
+=======
+a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1784475340;s:6:"expire";i:1784482540;s:4:"tags";s:49:"119_STORE,119_CONFIG,119_COLLECTION_DATA,119_MAGE";}
+>>>>>>> a0099bdc666f425a6764a2b8049017674a563e18
+[{"store_id":"1","code":"default","website_id":"1","group_id":"1","name":"Default Store View","sort_order":"0","is_active":"1"}]
