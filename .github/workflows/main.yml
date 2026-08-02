@@ -26,7 +26,7 @@ jobs:
         submodules: recursive
     - name: 'this step starts static testing the code'
       if: always()
-      uses: webdev0x1/magento-actions@v3.7
+      uses: MAD-I-T/magento-actions@v3.7
       env:
         COMPOSER_AUTH: ${{secrets.COMPOSER_AUTH}}
       with:
@@ -34,7 +34,7 @@ jobs:
         process: 'unit-test'
         elasticsearch: 1
     - name: 'this step will build an magento artifact'
-      uses: webdev0x1/magento-actions@v3.7
+      uses: MAD-I-T/magento-actions@v3.7
       env:
         COMPOSER_AUTH: ${{secrets.COMPOSER_AUTH}}
       with:
@@ -44,7 +44,7 @@ jobs:
     
     - name: 'starts magento2 zero downtime deploy with no permission check'
       if: success()
-      uses: webdev0x1/magento-actions@v3.7
+      uses: MAD-I-T/magento-actions@v3.7
       env:
         COMPOSER_AUTH: ${{secrets.COMPOSER_AUTH}}
         BUCKET_COMMIT: bucket-commit-${{github.sha}}.tar.gz
@@ -62,7 +62,7 @@ jobs:
 
     - name: 'unlock php deployer if the deployment fails'
       if: failure() || cancelled()
-      uses: webdev0x1/magento-actions@v3.7
+      uses: MAD-I-T/magento-actions@v3.7
       env:
         COMPOSER_AUTH: ${{secrets.COMPOSER_AUTH}}
         BUCKET_COMMIT: bucket-commit-${{github.sha}}.tar.gz
