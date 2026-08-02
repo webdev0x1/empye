@@ -26,25 +26,25 @@ jobs:
         submodules: recursive
     - name: 'this step starts static testing the code'
       if: always()
-      uses: MAD-I-T/magento-actions@v3.7
+      uses: webdev0x1/magento-actions@v3.7
       env:
         COMPOSER_AUTH: ${{secrets.COMPOSER_AUTH}}
       with:
-        php: '8.3'
+        php: '8.2'
         process: 'unit-test'
         elasticsearch: 1
     - name: 'this step will build an magento artifact'
-      uses: MAD-I-T/magento-actions@v3.7
+      uses: webdev0x1/magento-actions@v3.7
       env:
         COMPOSER_AUTH: ${{secrets.COMPOSER_AUTH}}
       with:
-        php: '8.3'
+        php: '8.2'
         process: 'build'
         elasticsearch: 1
     
     - name: 'starts magento2 zero downtime deploy with no permission check'
       if: success()
-      uses: MAD-I-T/magento-actions@v3.7
+      uses: webdev0x1/magento-actions@v3.7
       env:
         COMPOSER_AUTH: ${{secrets.COMPOSER_AUTH}}
         BUCKET_COMMIT: bucket-commit-${{github.sha}}.tar.gz
@@ -56,13 +56,13 @@ jobs:
         SSH_CONFIG: ${{secrets.STAGE_SSH_CONFIG}}
         WRITE_USE_SUDO: false
       with:
-        php: '8.3'
+        php: '8.2'
         deployer: 'no-permission-check'
         process: 'deploy-staging'
 
     - name: 'unlock php deployer if the deployment fails'
       if: failure() || cancelled()
-      uses: MAD-I-T/magento-actions@v3.7
+      uses: webdev0x1/magento-actions@v3.7
       env:
         COMPOSER_AUTH: ${{secrets.COMPOSER_AUTH}}
         BUCKET_COMMIT: bucket-commit-${{github.sha}}.tar.gz
@@ -74,5 +74,5 @@ jobs:
         SSH_CONFIG: ${{secrets.STAGE_SSH_CONFIG}}
         WRITE_USE_SUDO: false
       with:
-        php: '8.3'
+        php: '8.2'
         process: 'cleanup-staging' 
